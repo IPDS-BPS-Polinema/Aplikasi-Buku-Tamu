@@ -22,7 +22,15 @@ Aplikasi Buku Tamu - Badan Pusat Statistik (Malang)
   * Sub Menu Jenis Pelayanan - Admin
   * Sub Menu Kebutuhan Data (Sosial&Kependudukan, Ekonomi&Perdagangan, Pertanian&Pertambangan)
   
-3) Form - User 
+## Progress - Mutiara Rahmanda Tri Rizkia
+
+## Progress - Qorina Anindhita Prameswari
+
+## Progress - Moch Abizar Daffa Wijdan			
+
+## Progress - Wahyu Fajar Robyansyah						
+
+## Progress - Wildan Achmad Fachrurozi			
 
 Link Desain Figma : https://www.figma.com/file/JMnjTKktFVVOADLR7sH4Ml/BUKU-TAMU?node-id=0%3A1
 
