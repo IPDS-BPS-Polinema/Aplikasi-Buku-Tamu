@@ -26,6 +26,7 @@ return new class extends Migration
             $table->foreign('id_ekopangan')->references('id')->on('ekonomi_perdagangans');
             $table->unsignedBigInteger('id_pertama');
             $table->foreign('id_pertama')->references('id')->on('pertanian_pertambangans');
+
         });
     }
 

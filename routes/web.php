@@ -11,7 +11,8 @@ use App\Http\Controllers\JenisLayananController;
 use App\Http\Controllers\SosialKependudukanController;
 use App\Http\Controllers\EkonomiPerdaganganController;
 use App\Http\Controllers\PertanianPertambanganController;
-
+use App\Http\Controllers\TransaksiController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -34,7 +35,7 @@ Route::post('simpan-bukutamu', [TamuController::class, 'simpanTamu'])->name('sim
 
 //-----------------------------------------ADMIN---------------------------------------------//
 
-// Bagian Customer 
+// Bagian Customer
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 Route::get('admin/tamu', [AdminTamuController::class, 'index'])->name('admin-tamu');
 Route::get('admin/form-tambah', [AdminTamuController::class, 'formTambah'])->name('admin-form-tambah');
@@ -55,7 +56,7 @@ Route::resource('pendidikan', PendidikanController::class);
 // Bagian Media Pelayanan
 Route::resource('mPelayanan', MediaPelayananController::class);
 
-// Bagian Jenis Layanan 
+// Bagian Jenis Layanan
 Route::resource('jLayanan', JenisLayananController::class);
 
 // Bagian Pekerjaan
@@ -70,3 +71,5 @@ Route::resource('Ekopangan', EkonomiPerdaganganController::class);
 // Bagian Pertanian dan Pertambangan
 Route::resource('Pertama', PertanianPertambanganController::class);
 
+// Bagian Transaksi
+Route::resource('transaksi', TransaksiController::class);
