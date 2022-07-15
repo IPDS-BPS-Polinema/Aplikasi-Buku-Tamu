@@ -23,7 +23,7 @@ Aplikasi Buku Tamu - Badan Pusat Statistik (Malang)
   * Sub Menu Kebutuhan Data (Sosial&Kependudukan, Ekonomi&Perdagangan, Pertanian&Pertambangan)
   
 ## Progress - Mutiara Rahmanda Tri Rizkia
-   * CRUD TRANSAKSI 
+   * CRUD Transaksi - Admin
 
 ## Progress - Qorina Anindhita Prameswari
 
