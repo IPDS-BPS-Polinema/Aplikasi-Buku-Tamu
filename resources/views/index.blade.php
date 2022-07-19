@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,9 +9,8 @@
   <script src="{{url('/frontend/css/formTamuStyle/script.js')}}" defer></script>
   <title>Form Buku Tamu</title>
 </head>
-
 <body>
-
+  <form action="" method="POST" class="form">
   <h1 class="text-center">Form Buku Tamu</h1>
   <h2 class="text-center">BPS - Kota Malang</h2>
 
@@ -23,11 +22,10 @@
     <div class="progress-step" data-title="Pelayanan"></div>
     <div class="progress-step" data-title="Tujuan"></div>
   </div>
+  
 
   <!-- Steps 1-->
   <div class="form-step form-step-active">
-    <form action="{{route('formTamu.store')}}" method="POST" class="form">
-      @csrf
       <div class="input-group">
         <label for="nohp">No HP</label>
         <input type="text" name="nohp" id="nohp" placeholder="Silahkan isi no hp anda" />
@@ -158,9 +156,8 @@
       <a href="#" class="btn btn-prev">Previous</a>
       <input type="submit" value="Submit" class="btn" />
     </div>
-    </form>
   </div>
-
 </body>
+</form>
 
 </html>

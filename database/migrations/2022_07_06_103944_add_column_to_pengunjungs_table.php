@@ -14,18 +14,18 @@ return new class extends Migration
     public function up()
     {
         Schema::table('pengunjungs', function (Blueprint $table) {
-            $table->unsignedBigInteger('id_pendidikan');
-            $table->foreign('id_pendidikan')->references('id')->on('pendidikans');
-            $table->unsignedBigInteger('id_mediapelayanan');
-            $table->foreign('id_mediapelayanan')->references('id')->on('media_pelayanans');
-            $table->unsignedBigInteger('id_jenispelayanan');
-            $table->foreign('id_jenispelayanan')->references('id')->on('jenis_layanans');
-            $table->unsignedBigInteger('id_sospen');
-            $table->foreign('id_sospen')->references('id')->on('sosial_kependudukans');
-            $table->unsignedBigInteger('id_ekopangan');
-            $table->foreign('id_ekopangan')->references('id')->on('ekonomi_perdagangans');
-            $table->unsignedBigInteger('id_pertama');
-            $table->foreign('id_pertama')->references('id')->on('pertanian_pertambangans');
+            // $table->unsignedBigInteger('id_pendidikan');
+            // $table->foreign('id_pendidikan')->references('id')->on('pendidikans');
+            // $table->unsignedBigInteger('id_mediapelayanan');
+            // $table->foreign('id_mediapelayanan')->references('id')->on('media_pelayanans');
+            // $table->unsignedBigInteger('id_jenispelayanan');
+            // $table->foreign('id_jenispelayanan')->references('id')->on('jenis_layanans');
+            // $table->unsignedBigInteger('id_sospen');
+            // $table->foreign('id_sospen')->references('id')->on('sosial_kependudukans');
+            // $table->unsignedBigInteger('id_ekopangan');
+            // $table->foreign('id_ekopangan')->references('id')->on('ekonomi_perdagangans');
+            // $table->unsignedBigInteger('id_pertama');
+            // $table->foreign('id_pertama')->references('id')->on('pertanian_pertambangans');
 
         });
     }
